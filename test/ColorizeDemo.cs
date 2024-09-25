@@ -19,6 +19,15 @@ namespace kaleidolib.test
             Console.WriteLine(TextColor.purple + "Hello" + TextColor.reset);
             Console.WriteLine(TextColor.cyan + "Hello" + TextColor.reset);
             Console.WriteLine(TextColor.white + "Hello" + TextColor.reset);
+
+            Console.WriteLine(BackgroundColor.red + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.black + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.green + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.yellow + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.blue + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.purple + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.cyan + "Hello" + TextColor.reset);
+            Console.WriteLine(BackgroundColor.white + "Hello" + TextColor.reset);
         }
     }
 }
