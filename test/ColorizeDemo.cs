@@ -1,4 +1,5 @@
-﻿using System;
+﻿using kaleidolib.lib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,14 @@ namespace kaleidolib.test
     {
         static void Main()
         {
-
+            Console.WriteLine(TextColor.red + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.black + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.green + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.yellow + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.blue + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.purple + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.cyan + "Hello" + TextColor.reset);
+            Console.WriteLine(TextColor.white + "Hello" + TextColor.reset);
         }
     }
 }
