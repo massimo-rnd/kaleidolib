@@ -1,58 +1,33 @@
-﻿![Repo-Image](https://druffko.gg/github-images/kaleidolib.webp)
+﻿![Repo-Image](https://massimo.gg/github-images/kaleidolib.webp)
 
 <div align="center">
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/druffko/kaleidolib?include_prereleases)
+# Kaleidolib
 
-![.NET Version](https://img.shields.io/badge/.NET-8.0-brightgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/druffko/kaleidolib)
-![Build status](https://img.shields.io/badge/build-passing-brightgreen)
-![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![License](https://img.shields.io/github/license/massimo-rnd/kaleidolib)
+![Issues](https://img.shields.io/github/issues/massimo-rnd/kaleidolib)
+![Forks](https://img.shields.io/github/forks/massimo-rnd/kaleidolib)
+![Stars](https://img.shields.io/github/stars/massimo-rnd/kaleidolib)
+![Last Commit](https://img.shields.io/github/last-commit/massimo-rnd/kaleidolib)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/massimo-rnd/kaleidolib?include_prereleases)
 
-  <br>
-
-![GitHub All Releases](https://img.shields.io/github/downloads/druffko/kaleidolib/total)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/druffko/kaleidolib)
-![GitHub issues](https://img.shields.io/github/issues/druffko/kaleidolib)
-
-  <h1>Kaleidolib</h1>
-  <p>
-    Kaleidolib is a C# library providing different style additions for command line applications. This might sound pretty useless in the first place (probably because it is), but there might be some cases, where colors actually come in handy.
-  </p>
 </div>
 
----
-
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## About
+## 🚀 Overview
 
 Kaleidolib is a C# library providing different style additions for command line applications. This might sound pretty useless in the first place (probably because it is), but there might be some cases, where colors actually come in handy.
 
----
+## 🎯 Features
 
-## Features
+- Colors for Text in your CLI-Application
+- Textstyles for Text in your CLI-Application
+- Wrapper-Methods for easy usage
 
-- ✅ Colors for Text in your CLI-Application
-- ✅ Textstyles for Text in your CLI-Application
-- ✅ Wrapper-Methods for easy usage
-
----
-
-## Installation
+## 🛠️ Installation
 
 ### Download the latest version
 
-To start off, please head to the [releases page](https://github.com/druffko/kaleidolib/releases) and download a pre-built dll.
+To start off, please head to the [releases page](https://github.com/massimo-rnd/kaleidolib/releases) and download a pre-built dll.
 
 *If you don't trust me for some reason, feel free to download the latest released source code and build it your self.*
 
@@ -60,9 +35,7 @@ To start off, please head to the [releases page](https://github.com/druffko/kale
 
 This process depends on the IDE, so just do it as it is done with your's.
 
----
-
-## Usage
+## 💻 Usage
 
 ### Using colors
 Colors can be used like this:
@@ -113,29 +86,41 @@ Console.WriteLine(Background.green(Lining.underline(Color.blue("Ndêwó!"))));
 Console.WriteLine(Lining.strikethrough(Color.purple("Yassou!")));
 ```
 
+## 🚧 Roadmap
+
+- [ ] Extend with more Styles
+- [ ] Implement customizable Colors
+
+Check out the [open issues](https://github.com/massimo-rnd/kaleidolib/issues) for more.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/massimo-rnd/kaleidolib/issues).
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📊 Repository Metrics
+
+![Repo Size](https://img.shields.io/github/repo-size/massimo-rnd/kaleidolib)
+![Contributors](https://img.shields.io/github/contributors/massimo-rnd/kaleidolib)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/massimo-rnd/kaleidolib)
+
 ---
 
-## Contributing
+### 📞 Contact
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a pull request
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-- **druffko** - [@druffko](https://twitter.com/druffko) - hi@druffko.gg
-- **Project Link** - https://github.com/druffko/kaleidolib
-
-Feel free to reach out if you have any questions or suggestions!
+For any inquiries, feel free to reach out:
+- email: [hi@massimo.gg](mailto:hi@massimo.gg)
+- X: [massimo-rnd](https://x.com/massimo-rnd)
+- [Discord](https://discord.gg/wmC5AA6c)
