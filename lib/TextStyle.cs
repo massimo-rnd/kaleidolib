@@ -18,5 +18,6 @@
         public static string italicunderline = "\x1B[4:3m";
         public static string strikethrough = "\x1B[9m";
         public static string overline = "\x1B[53m";
+        public static string framed = "\x1B[51m";
     }
 }

@@ -88,7 +88,6 @@ Console.WriteLine(Lining.strikethrough(Color.purple("Yassou!")));
 
 ## 🚧 Roadmap
 
-- [ ] Extend with more Styles
 - [ ] Implement customizable Colors
 
 Check out the [open issues](https://github.com/massimo-rnd/kaleidolib/issues) for more.
