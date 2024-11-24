@@ -26,6 +26,16 @@ namespace kaleidolib.test
             Console.WriteLine(Color.cyan("Namaste!"));
             Console.WriteLine(Color.white("Salaam!"));
             Console.WriteLine("\n-------------------------\n");
+            Console.WriteLine("And even more colors!\n");
+            Console.WriteLine(Color.lightBlack("Hello!"));
+            Console.WriteLine(Color.lightRed("Hallo!"));
+            Console.WriteLine(Color.lightGreen("Bonjour!"));
+            Console.WriteLine(Color.lightYellow("Hola!"));
+            Console.WriteLine(Color.lightBlue("Ciao!"));
+            Console.WriteLine(Color.lightMagenta("Olà!"));
+            Console.WriteLine(Color.lightCyan("Namaste!"));
+            Console.WriteLine(Color.lightWhite("Salaam!"));
+            Console.WriteLine("\n-------------------------\n");
         }
 
         static void background()
@@ -39,6 +49,16 @@ namespace kaleidolib.test
             Console.WriteLine(Background.purple("Sannu!"));
             Console.WriteLine(Background.cyan("Jambo!"));
             Console.WriteLine(Background.white("Ni Hau!"));
+            Console.WriteLine("\n-------------------------\n");
+            Console.WriteLine("And even more backgrounds!\n");
+            Console.WriteLine(Background.lightBlack("Merhaba!"));
+            Console.WriteLine(Background.lightRed("Sain bainuu!"));
+            Console.WriteLine(Background.lightGreen("Nay Hoh!"));
+            Console.WriteLine(Background.lightYellow("Szia!"));
+            Console.WriteLine(Background.lightBlue("Marhaba!"));
+            Console.WriteLine(Background.lightMagenta("Sannu!"));
+            Console.WriteLine(Background.lightCyan("Jambo!"));
+            Console.WriteLine(Background.lightWhite("Ni Hau!"));
             Console.WriteLine("\n-------------------------\n");
         }
 
@@ -63,6 +83,7 @@ namespace kaleidolib.test
             Console.WriteLine(Lining.italicunderline("Musta!"));
             Console.WriteLine(Lining.strikethrough("Salam!"));
             Console.WriteLine(Lining.overline("Pranam!"));
+            Console.WriteLine(Lining.framed("Pranam!"));
             Console.WriteLine("\n-------------------------\n");
         }
 

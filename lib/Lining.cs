@@ -28,5 +28,10 @@
         {
             return TextStyle.overline + liningString + reset;
         }
+
+        public static string framed(string liningString)
+        {
+            return TextStyle.framed + liningString + reset;
+        }
     }
 }

@@ -44,5 +44,38 @@
             return TextColor.white + colorString + reset;
         }
 
+        public static string lightBlack(string colorString)
+        {
+            return TextColor.lightBlack + colorString + reset;
+        }
+        public static string lightRed(string colorString)
+        {
+            return TextColor.lightRed + colorString + reset;
+        }
+        public static string lightGreen(string colorString)
+        {
+            return TextColor.lightGreen + colorString + reset;
+        }
+        public static string lightYellow(string colorString)
+        {
+            return TextColor.lightYellow + colorString + reset;
+        }
+        public static string lightBlue(string colorString)
+        {
+            return TextColor.lightBlue + colorString + reset;
+        }
+        public static string lightMagenta(string colorString)
+        {
+            return TextColor.lightMagenta + colorString + reset;
+        }
+        public static string lightCyan(string colorString)
+        {
+            return TextColor.lightCyan + colorString + reset;
+        }
+        public static string lightWhite(string colorString)
+        {
+            return TextColor.lightWhite + colorString + reset;
+        }
+
     }
 }
